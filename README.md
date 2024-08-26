@@ -5,7 +5,23 @@
 #Dart & Flutter
 
 1. What is the first step for installing Dart on a Windows machine?
+Download the Dart SDK:
 
+Go to the Dart SDK download page on the official Dart website: Dart SDK Download.
+Choose the version for Windows and download the .zip file.
+Extract the Dart SDK:
+
+Once the download is complete, extract the contents of the .zip file to a directory of your choice. For example, you might extract it to C:\dart.
+Add Dart to your system PATH:
+
+Open the Start Menu and search for Environment Variables, then select Edit the system environment variables.
+In the System Properties window, click on the Environment Variables button.
+In the Environment Variables window, under System variables, find the Path variable, select it, and click Edit.
+Click New and add the path to the Dart SDK's bin directory. For example, if you extracted the SDK to C:\dart, add C:\dart\dart-sdk\bin.
+Click OK to close all windows.
+Verify the installation:
+
+Open a new Command Prompt window and type dart --version to check if Dart is installed correctly. You should see the version information displayed.
 A) Install Homebrew
 B) Download the Dart SDK
 C) Update your PATH
@@ -18,7 +34,9 @@ A) dart --install
 B) dart --check
 C) dart --verify
 D) dart --version
+D) dart --version
 
+This command will display the installed Dart SDK version, confirming that Dart is correctly installed and accessible from your terminal.
 
 3. What is the next step after downloading and extracting the Flutter SDK on Linux?
 
@@ -26,7 +44,9 @@ A) Install Homebrew
 B) Update your PATH
 C) Run Flutter Doctor
 D) Create a new Flutter project
+B) Update your PATH
 
+You need to add the Flutter SDK’s bin directory to your system’s PATH environment variable so that you can run Flutter commands from any terminal session. After updating the PATH, you should then run flutter doctor to check for any dependencies you might need.
 
 4. What command is used to run a newly created Flutter app?
 
@@ -34,7 +54,9 @@ A) flutter start
 B) flutter build
 C) flutter run
 D) flutter init
+C) flutter run
 
+This command builds and launches your Flutter application on a connected device or emulator.
 
 #Python Installation
 
@@ -44,14 +66,18 @@ A) Run the installer without any customization
 B) Download Python from the official website
 C) Open the terminal and type sudo apt install python
 D) Install pip manually
+B) Download Python from the official website
 
+You need to download the Python installer from the official Python website at python.org. Once downloaded, you can run the installer and follow the instructions to complete the installation.
 Which option should you ensure is checked during Python installation on Windows?
 
 A) Install with default settings
 B) Install to a custom directory
 C) Add Python to PATH
 D) Install all available features
+C) Add Python to PATH
 
+This ensures that the Python executable is added to your system's PATH environment variable, allowing you to run Python commands from any command prompt or terminal window
 How do you verify Python installation on any system?
 
 A) By running python --version
